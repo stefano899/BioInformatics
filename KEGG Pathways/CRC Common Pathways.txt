@@ -1,0 +1,72 @@
+| Pathway comuni al ColoRectal Cancer    | Database | ID       |
+| -------------------------------------- | -------- | -------- |
+| Pathways in cancer                     | KEGG     | hsa05200 |
+| Colorectal cancer                      | KEGG     | hsa05210 |
+| Wnt signaling pathway                  | KEGG     | hsa04310 |
+| PI3K-Akt signaling pathway             | KEGG     | hsa04151 |
+| MAPK signaling pathway                 | KEGG     | hsa04010 |
+| TGF-beta signaling pathway             | KEGG     | hsa04350 |
+| p53 signaling pathway                  | KEGG     | hsa04115 |
+| Hedgehog signaling pathway             | KEGG     | hsa04340 |
+| Apoptosis                              | KEGG     | hsa04210 |
+| Cell cycle                             | KEGG     | hsa04110 |
+----------------------------------------------------------------
+| Pathways NON TROVATI                   | Database | ID       |
+| Cytokine-cytokine receptor interaction | KEGG     | hsa04060 |
+| DNA mismatch repair                    | KEGG     | hsa03430 |
+----------------------------------------------------------------
+
+TarBase version used: v8
+Kegg-based tools like mirPath v4, only use validated miRNA–targets pairs interactions (e.g. by choosing TarBase, miRTarBase), by configuring the research filters to do so.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sources:
+1. Colorectal cancer – KEGG: hsa05210
+	Description: This is a composite pathway in KEGG that integrates Wnt, p53, MAPK, and others specific to CRC.
+    Reference:
+        Kanehisa M, Furumichi M, Tanabe M, Sato Y, Morishima K. KEGG: integrating viruses and cellular organisms. Nucleic Acids Res. 2021;49(D1):D545–D551. doi:10.1093/nar/gkaa970
+
+2. Wnt Signaling Pathway – KEGG: hsa04310
+    Description: Central to CRC initiation. APC mutations lead to β-catenin accumulation.
+    Reference:
+        Polakis P. Wnt signaling in cancer. Cell. 2012;149(6):1192–205.doi:10.1016/j.cell.2012.05.012
+        Segditsas S, Tomlinson I. Colorectal cancer and genetic alterations in the Wnt pathway. Oncogene. 2006;25(57):7531–7.
+        
+3. PI3K-Akt Signaling Pathway – KEGG: hsa04151
+    Description: Regulates growth and survival; often altered via PIK3CA mutation in CRC.
+    Reference:
+        Frattini M, et al. PIK3CA gene mutations in colorectal cancer. J Clin Oncol. 2005;23(24):5705–12.
+        Liu Y, et al. PI3K/Akt pathway in colorectal cancer: basic mechanisms and clinical implications. Genes & Diseases. 2020;7(3):297–302.
+        
+4. MAPK Signaling Pathway – KEGG: hsa04010
+    Description: Activated downstream of EGFR/KRAS → promotes proliferation.
+    Reference:
+        McCubrey JA, et al. Roles of the Raf/MEK/ERK pathway in cell growth, malignant transformation and drug resistance. Biochim Biophys Acta. 2007;1773(8):1263–84.
+        
+5. TGF-beta Signaling Pathway – KEGG: hsa04350
+    Description: Tumor suppressor in early CRC, tumor promoter in late stages (metastasis, EMT).
+    Reference:
+        Massagué J. TGFβ signalling in context. Nat Rev Mol Cell Biol. 2012;13(10):616–30.
+        Grady WM, et al. TGF-beta signaling and colon cancer progression. Curr Colorectal Cancer Rep. 2005;1(2):62–66.
+        
+6. p53 Signaling Pathway – KEGG: hsa04115
+    Description: p53 mutations are present in ~60% of CRC tumors.
+    Reference:
+        Baker SJ, et al. p53 mutations occur in a wide spectrum of human tumors. Science. 1990;249(4972):912–5.
+        Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. Cell. 1990;61(5):759–67.
+
+7. Hedgehog Signaling Pathway – KEGG: hsa04340
+    Description: Less common, but linked to CRC stemness and chemoresistance.
+    Reference:
+        Varnat F, et al. Human colon cancer epithelial cells express active Hh signaling pathway components. PLoS One. 2009;4(3):e6159.
+        Bian Y, et al. Activation of the hedgehog pathway in human colon cancer cells: regulation of proliferation and apoptosis by GLI1. Int J Oncol. 2007;30(6):139–47.
+
+8. Apoptosis – KEGG: hsa04210
+    Description: Inhibition of apoptosis (e.g., via BCL2) is key in CRC survival.
+    Reference:
+        Igney FH, Krammer PH. Death and anti-death: tumour resistance to apoptosis. Nat Rev Cancer. 2002;2(4):277–88.
+
+9. Cell Cycle – KEGG: hsa04110
+    Description: CRC cells often show deregulation of Cyclins, CDKs (e.g., CCND1 overexpression).
+    Reference:
+        Malumbres M, Barbacid M. Cell cycle, CDKs and cancer: a changing paradigm. Nat Rev Cancer. 2009;9(3):153–66.

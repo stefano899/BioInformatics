@@ -10,6 +10,17 @@
 | Hedgehog signaling pathway             | KEGG     | hsa04340 |
 | Apoptosis                              | KEGG     | hsa04210 |
 | Cell cycle                             | KEGG     | hsa04110 |
+
+Hippo Signaling Pathway
+Cellular Senescence
+Lysine degradation
+Rap1 signaling pathway
+Transcriptional misregulation in cancer
+Proteoglycans in cancer
+One carbon pool by folate
+MicroRNAs in cancer
+
+
 ----------------------------------------------------------------
 | Pathways NON TROVATI                   | Database | ID       |
 | Cytokine-cytokine receptor interaction | KEGG     | hsa04060 |
